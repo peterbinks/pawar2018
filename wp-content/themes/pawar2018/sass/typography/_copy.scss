@@ -5,6 +5,7 @@ p {
 
 a {
 	color: $light-blue;
+	transition: all .2s ease-in-out;
 	&:hover {
 		color: darken($light-blue, 10);
 		text-decoration: underline;

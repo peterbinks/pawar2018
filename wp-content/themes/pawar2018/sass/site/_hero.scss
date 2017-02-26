@@ -7,8 +7,11 @@
 	@include breakpoint(medium) {
   	background-color: $primary-color;
   	background-size: cover; // todo: move to row? Look at new mocks
- 		height: 32.5rem;
+ 	height: 32.5rem;
 	}
+    @include breakpoint(small only) {
+        padding: 0 0 2rem 0;
+    }
 	.row:first-child,
 	.row:last-child {
 		height: 40%;

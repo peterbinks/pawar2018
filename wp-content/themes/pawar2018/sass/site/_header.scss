@@ -105,6 +105,8 @@ header {
 		font-weight: 700;
 		text-decoration: none;
 		padding-bottom: .25rem;
+		border-bottom: 2px solid transparent;
+		transition: all .2s ease-in-out;
 		&:hover {
 			color: white;
 			border-bottom: 2px solid white;
